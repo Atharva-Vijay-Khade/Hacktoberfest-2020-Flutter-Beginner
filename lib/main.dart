@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(
     MaterialApp(
@@ -19,6 +20,12 @@ Widget getListView() {
         leading: Icon(Icons.bubble_chart),
         title: Text("Lucifer"),
         subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
+      ListTile(///new list view added 
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Taarak Mehta ka Ooltah Chashmah"),
+        subtitle: Text("Sony Sub TV"),
         trailing: Icon(Icons.bubble_chart),
       ),
     ],
